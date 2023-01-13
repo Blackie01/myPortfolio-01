@@ -1,4 +1,6 @@
-
+* {
+    /* width: 100%; */
+}
 /* main body styles */
 
 body{
@@ -253,12 +255,6 @@ hr{
     text-decoration: none;
     
   }
-
-
-
-
-
-
 
 
 /* main body area */
@@ -711,7 +707,8 @@ hr{
     #allMainBody{
         width: 100%;
         padding: 0;
-
+        max-width: 100%;
+        box-sizing: border-box;
     }
 
     /* hero area */
@@ -799,7 +796,7 @@ hr{
         border: none;
         text-align: center;
         margin-left: 8%;
-        /* font-size: small; */
+        font-size: 36px;
     }
 
     #overheadGallery{
@@ -816,6 +813,23 @@ hr{
     .galleryImg{
         width: 80%;
         margin-left: 10%;
+    }
+
+    .card-container{
+        width: 80%;
+        height: 450px;
+        color: white;
+        padding: 40px 20px 40px 20px;
+        border-radius: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+        background-color: #272727;
+    }
+    
+    .cardImg{
+        height: 300px;
+        width: 80%;
+        border-radius: 20px;
     }
 
     /* Contact */
