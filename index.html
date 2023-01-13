@@ -67,8 +67,41 @@
             </section>
         </nav>
 
-    </header>
+
+<!-- copied hamburger -->
+        <!-- <input type="checkbox" id="hamburger-input" class="burger-shower" />
+<label id="hamburger-menu" for="hamburger-input">
+  <nav id="sidebar-menu">
+    <h3>Menu</h3>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Store</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</label>
+
+<div class="overlay"></div> -->
+
+<!-- 
+<label>
+    <input type="checkbox">
+    <span class="menu"> <span class="hamburger"></span> </span>
+    <ul>
+      <li> <a href="#">Home</a> </li>
+      <li> <a href="#">Stack</a> </li>
+      <li> <a href="#">Newsletter</a> </li>
+      <li> <a href="#">Portfolio</a> </li>
     
+      <li> <a href="#">My blog</a> </li>
+      <li> <a href="#">Contact</a> </li>
+    </ul>
+</label> -->
+
+    </header>
+
 
     <!-- main body area -->
 
@@ -79,7 +112,7 @@
             <!-- Hero Area -->
 
             <section id="mainBody">
-                <!-- <p class="animation">Go Home Now</p> -->
+                
                 <h1>
                     <span id="visit">
                         Hi, 
@@ -133,9 +166,8 @@
                     
                     
                     <p>
-                        I am a budding Front-end Developer with a solid background in Content and Copywriting. 
-                        I recently decided to learn more about Technical Writing, 
-                        a skill I believe will be highly invaluable as part of my stack on my software engineering journey 
+                        I am a budding Front-end Developer with a Content Writing background.
+                        Looking to be a part of a team of smart individuals as I begin my software engineering journey 
                         <br>
                         <br>
                         <br>
@@ -147,12 +179,12 @@
                         <br>
                         <br>
                         That said, my ultimate aim is to learn, build, contribute, teach and make impact, 
-                        as much as I can, till I become a superstar talent in Tech and Literature. 
+                        as much as possible, till I become a superstar talent in Tech. 
                         When I become a superstar talent, I’d set another goal 
                         <br>
                         <br>
                         <br>
-                        For now anyways, I’m open to Internship Roles as a Front-end Developer 
+                        For now anyways, I’m open to Internship roles as a Front-end Developer 
                     </p>
                 </section>
             
@@ -188,23 +220,26 @@
                         <li class="list">HTML</li>
                         <li class="list">CSS</li>
                         <li class="list">JavaScript</li>
-                        <li class="list">Git</li>
+                        <li class="list">React.js</li>
+                        <li class="list">Git/Github</li>
+                        <li class="list">Bootstrap</li>
                     </ol>
                 
                 </div>
                     
                 <div class="skill" id="skillContent">
-                    <h1 class="skillH1">Creating Content</h1>
+                    <h1 class="skillH1">Technical Writing</h1>
                     <p>
-                        Been doing these for years now; I'm 'that good'
+                        Writing is second nature to me
                     </p>
                         
                     <ol>
-                        <li class="list">SEO writing</li>
-                        <li class="list">Proofreading</li>
-                        <li class="list">Copywriting</li>
-                        <li class="list">Editing</li>
-                        <li class="list">Creative Writing</li>
+                        <li class="list">Software Documentation</li>
+                        <li class="list">API documentation</li>
+                        <li class="list">Markdown</li>
+                        <li class="list">Video Editing</li>
+                        <li class="list">Layout Design</li>
+                        <li class="list">Writing</li>
                     </ol> 
                 </div>
             </section>
@@ -229,17 +264,110 @@
             <h2>My Portfolio</h2>
 
             <div id="overheadGallery">
-                <div class="gallery">
-                    <img class="galleryImg" id="imgno1" src="/images/Portfolio-CheckOutPage.png" alt=""> 
-                    <img class="galleryImg" src="/images/Portfolio-GoogleClone.png" alt="">
-                    <img class="galleryImg" src="/images/Portfolio-CV-replica.png" alt="">
-                </div>
 
-                <div class="gallery">
-                    <img class="galleryImg" src="/images/Portfolio-CheckOutPage.png" alt="">
-                    <img class="galleryImg" src="/images/Portfolio-GoogleClone.png" alt="">
-                    <img class="galleryImg" src="/images/Portfolio-CV-replica.png" alt="">
-                </div>
+                <section class="card-container">
+                    <div>
+                        <img class="cardImg" id="imgno1" src="/images/Portfolio-CheckOutPage.png" alt="">
+                    </div>
+                    <div class="card-sub-text">
+                        <h3>User Display App</h3>
+                        <hr>
+                        <p>An API app to display user profiles.</p>
+                        <p id="tech-used">Tech:
+                            <span class="techy">API</span>
+                            <span class="techy">React</span>
+                            <span class="techy">CSS</span>
+                        </p>
+                        <div id="tech-button"><a href="">Live Demo</a></div>
+                    </div>
+                </section>
+
+                <section class="card-container">
+                    <div>
+                        <img class="cardImg" id="imgno1" src="/images/Portfolio-GoogleClone.png" alt="">
+                    </div>
+                    <div class="card-sub-text">
+                        <h3>User Display App</h3>
+                        <hr>
+                        <p>An API app to display user profiles.</p>
+                        <p id="tech-used">Tech:
+                            <span class="techy">API</span>
+                            <span class="techy">React</span>
+                            <span class="techy">CSS</span>
+                        </p>
+                        <div id="tech-button"><a href="">Live Demo</a></div>
+                    </div>
+                </section>
+                     
+                    
+                <section class="card-container">
+                    <div>
+                        <img class="cardImg" id="imgno1" src="/images/Portfolio-GoogleClone.png" alt="">
+                    </div>
+                    <div class="card-sub-text">
+                        <h3>User Display App</h3>
+                        <hr>
+                        <p>An API app to display user profiles.</p>
+                        <p id="tech-used">Tech:
+                            <span class="techy">API</span>
+                            <span class="techy">React</span>
+                            <span class="techy">CSS</span>
+                        </p>
+                        <div id="tech-button"><a href="">Live Demo</a></div>
+                    </div>
+                </section>
+
+                <section class="card-container">
+                    <div>
+                        <img class="cardImg" id="imgno1" src="/images/Portfolio-GoogleClone.png" alt="">
+                    </div>
+                    <div class="card-sub-text">
+                        <h3>User Display App</h3>
+                        <hr>
+                        <p>An API app to display user profiles.</p>
+                        <p id="tech-used">Tech:
+                            <span class="techy">API</span>
+                            <span class="techy">React</span>
+                            <span class="techy">CSS</span>
+                        </p>
+                        <div id="tech-button"><a href="">Live Demo</a></div>
+                    </div>
+                </section>
+
+                <section class="card-container">
+                    <div>
+                        <img class="cardImg" id="imgno1" src="/images/Portfolio-GoogleClone.png" alt="">
+                    </div>
+                    <div class="card-sub-text">
+                        <h3>User Display App</h3>
+                        <hr>
+                        <p>An API app to display user profiles.</p>
+                        <p id="tech-used">Tech:
+                            <span class="techy">API</span>
+                            <span class="techy">React</span>
+                            <span class="techy">CSS</span>
+                        </p>
+                        <div id="tech-button"><a href="">Live Demo</a></div>
+                    </div>
+                </section>
+
+                <section class="card-container">
+                    <div>
+                        <img class="cardImg" id="imgno1" src="/images/Portfolio-CV-replica.png" alt="">
+                    </div>
+                    <div class="card-sub-text">
+                        <h3>User Display App</h3>
+                        <hr>
+                        <p>An API app to display user profiles.</p>
+                        <p id="tech-used">Tech:
+                            <span class="techy">API</span>
+                            <span class="techy">React</span>
+                            <span class="techy">CSS</span>
+                        </p>
+                        <div id="tech-button"><a href="">Live Demo</a></div>
+                    </div>
+                </section>
+                    
             </div>
             
         </section>
