@@ -383,10 +383,13 @@ hr{
     width: 80%;
     padding: 20px 40px 40px 30px;
     height: 240px;
+    height: max-content;
+    min-height: 16rem;
     padding-left: 75px;
     background-color: #212529;
     border-top: #e31f71 8px solid;
     border-radius: 5px 5px 3px 3px;
+    transition: background-color 0.3s ease-in-out;
 }
 
 #skillContent{
@@ -413,11 +416,14 @@ hr{
     list-style: none;
     text-align: left;
     padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .list{
     color: #8D8D8D;
     margin-top: 5px;
+    width: 50%;
 }
 
 /* Portfolio Area */
@@ -449,6 +455,7 @@ hr{
 .card-container{
     width: 400px;
     height: 510px;
+    height: max-content;
     color: white;
     padding: 40px 20px 40px 20px;
     border-radius: 30px;
